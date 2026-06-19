@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf9f6"/>
+  <text x="90" y="210" font-family="Inter, Arial" font-size="82" font-weight="800" fill="#101010">Leon</text>
+  <text x="90" y="290" font-family="Inter, Arial" font-size="36" font-weight="600" fill="#686868">Portfolio Web Developer</text>
+  <line x1="90" y1="350" x2="1110" y2="350" stroke="#dedbd4" stroke-width="2"/>
+  <text x="90" y="430" font-family="Inter, Arial" font-size="28" font-weight="600" fill="#101010">Website • Web System • Responsive Layout</text>
+</svg>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Leon — Portfolio Web Developer</title>
+  <meta name="description" content="Portfolio Leon, pelajar SMK Tritech Informatika yang fokus membuat website bisnis dan sistem web sederhana." />
+  <meta name="keywords" content="Leon, portfolio web developer, website bisnis, landing page, sistem web, SMK Tritech Informatika" />
+  <meta name="author" content="Leon" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#101010" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Leon — Portfolio Web Developer" />
+  <meta property="og:description" content="Profil, project, dan kontak Leon sebagai web developer." />
+  <meta property="og:image" content="https://leonworks.vercel.app/assets/images/preview.svg" />
+  <meta property="og:url" content="https://leonworks.vercel.app/" />
+
+  <link rel="canonical" href="https://leonworks.vercel.app/" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Leon",
+      "jobTitle": "Student Web Developer",
+      "description": "Pelajar SMK Tritech Informatika yang fokus membuat website bisnis dan sistem web sederhana.",
+      "url": "https://leonworks.vercel.app/",
+      "sameAs": ["https://instagram.com/shirogedigital"],
+      "knowsAbout": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Responsive Web Design"]
+    }
+  </script>
+</head>
+<body>
+  <a href="#content" class="skip-link">Lewati ke konten</a>
+
+  <header class="topbar">
+    <a class="brand" href="#home">Leon</a>
+
+    <nav class="nav" id="navMenu" aria-label="Navigasi utama">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Project</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <button class="menu-button" id="menuButton" type="button" aria-label="Buka menu" aria-expanded="false">
+      Menu
+    </button>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="home">
+      <div class="hero-meta">
+        <span>Portfolio</span>
+        <span>Web Developer</span>
+        <span>Indonesia</span>
+      </div>
+
+      <h1>
+        Saya Leon, pelajar SMK yang sedang fokus membuat website yang rapi dan mudah dipakai.
+      </h1>
+
+      <p>
+        Saya hampir 18 tahun dan bersekolah di SMK Tritech Informatika. Fokus saya saat ini adalah membuat
+        landing page, website bisnis, dan sistem web sederhana yang tampil bersih, jelas, dan nyaman dibuka dari HP maupun laptop.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects">Lihat project</a>
+        <a href="#contact">Hubungi saya</a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">Tentang</div>
+
+      <div class="about-content">
+        <p>
+          Saya belajar web development karena tertarik membuat sesuatu yang bisa langsung dipakai. Bukan hanya tampilan,
+          tapi juga alur halaman, informasi yang jelas, dan fungsi yang membantu kebutuhan user atau pemilik bisnis.
+        </p>
+
+        <p>
+          Untuk sekarang, saya fokus membangun dasar yang kuat di HTML, CSS, JavaScript, PHP, dan MySQL.
+          Saya juga mulai terbiasa membuat tampilan responsive agar website tetap nyaman dilihat di berbagai ukuran layar.
+        </p>
+      </div>
+
+      <div class="education-note" aria-label="Pendidikan dan fokus belajar">
+        <h3>Pendidikan & Fokus Belajar</h3>
+        <p>
+          Saat ini saya bersekolah di SMK Tritech Informatika dan sedang menuju kelas 3.
+          Saya fokus memperkuat dasar web development, terutama pembuatan website yang rapi,
+          responsive, dan mudah dipakai.
+        </p>
+
+        <div class="learning-list">
+          <span>HTML & CSS</span>
+          <span>JavaScript</span>
+          <span>PHP & MySQL</span>
+          <span>Responsive Layout</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label">Project</div>
+
+      <div class="project-row featured">
+        <div class="project-number">01</div>
+
+        <div class="project-text">
+          <span class="project-type">Web System</span>
+          <h2>SandboxPay API</h2>
+          <p>
+            Project simulasi payment gateway untuk testing transaksi digital. Project ini dibuat sebagai contoh
+            sistem web yang memiliki alur backend, pembuatan transaksi, webhook log, dan dokumentasi sederhana.
+          </p>
+
+          <ul>
+            <li>Login, register, dan pembuatan transaksi</li>
+            <li>Webhook log untuk melihat aktivitas pembayaran</li>
+            <li>Dokumentasi API agar alur penggunaan lebih mudah dipahami</li>
+          </ul>
+        </div>
+
+        <div class="project-preview">
+          <img src="assets/images/image.png" alt="Preview project SandboxPay API" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="project-number">02</div>
+
+        <div class="project-text">
+          <span class="project-type">Project Selanjutnya</span>
+          <h2>Coming Soon</h2>
+          <p>
+            Project kedua masih disiapkan. Bagian ini bisa diganti nanti setelah project baru selesai,
+            misalnya sistem inventory, kasir sederhana, booking system, atau dashboard admin.
+          </p>
+        </div>
+
+        <div class="project-preview simple">
+          <img src="assets/images/coming-soon.svg" alt="Coming Soon" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">Kontak</div>
+
+      <div class="contact-content">
+        <h2>Mau bahas website atau project sederhana?</h2>
+        <p>
+          Hubungi saya lewat kontak di bawah. Sebelum dipublish, ganti dulu email, nomor WhatsApp,
+          dan Instagram dengan data asli.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:shirogedigital@gmail.com">
+            <span>Email</span>
+            <strong>shirogedigital@gmail.com</strong>
+          </a>
+          <a href="https://wa.me/628973225110" target="_blank" rel="noreferrer">
+            <span>WhatsApp</span>
+            <strong>+62 897-3225-110</strong>
+          </a>
+          <a href="https://instagram.com/shirogedigital" target="_blank" rel="noreferrer">
+            <span>Instagram</span>
+            <strong>@shirogedigital</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Leon</span>
+    <a href="#home">Kembali ke atas</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
