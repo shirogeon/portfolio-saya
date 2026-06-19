@@ -323,6 +323,20 @@ h1 {
   min-height: 280px;
 }
 
+.project-link {
+  display: block;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.project-link:hover {
+  transform: translateY(-3px);
+  border-color: var(--blue);
+}
+
+
+
 .project-preview img {
   width: 100%;
   height: 100%;
