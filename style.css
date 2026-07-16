@@ -210,6 +210,18 @@ h1 {
   margin-bottom: 22px;
 }
 
+.skills-panel {
+  margin-top: 18px;
+  max-width: 780px;
+}
+
+.skills-panel h3 {
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  margin-bottom: 12px;
+}
+
 .education-note {
   grid-column: 2;
   max-width: 780px;
