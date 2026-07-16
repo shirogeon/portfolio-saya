@@ -348,6 +348,26 @@ h1 {
   place-items: center;
 }
 
+.devvault-card {
+  text-align: center;
+  padding: 28px;
+  display: grid;
+  gap: 10px;
+  max-width: 260px;
+}
+
+.devvault-card strong {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.devvault-card span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .contact-content {
   max-width: 850px;
 }
